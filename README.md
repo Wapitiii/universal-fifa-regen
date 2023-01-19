@@ -12,5 +12,5 @@ Add Functionality to have Multiple Game Directories
 Additional Optimizations and Bug Fixing
 ## Credits
 Emran_Ahmed - Project Lead and UI Designer
-Wapitiii - Lead Programmer and Reverse Engineer
+Wapitiii - Lead Programmer
 Rinaldo - FifaLibrary14.dll
