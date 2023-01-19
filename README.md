@@ -11,6 +11,6 @@ Add Support for FIFA 15 and FIFA 16
 Add Functionality to have Multiple Game Directories
 Additional Optimizations and Bug Fixing
 ## Credits
-Emran_Ahmed - Project Lead and UI Designer
-Wapitiii - Lead Programmer
-Rinaldo - FifaLibrary14.dll
+* Emran_Ahmed - Project Lead and UI Designer
+* Wapitiii - Lead Programmer
+* Rinaldo - FifaLibrary14.dll
