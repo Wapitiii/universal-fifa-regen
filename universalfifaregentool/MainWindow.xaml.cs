@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,21 @@ namespace universalfifaregentool
         public MainWindow()
         {
             InitializeComponent();
+
+            initConfig();
+        }
+
+        private void initConfig()
+        {
+            string configPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData, Environment.SpecialFolderOption.Create) + $"\\Universal FIFA Regenerator";
+
+            if (!Directory.Exists(configPath))
+            {
+                Directory.CreateDirectory(configPath);
+                File.Create(configPath + $"\\config.ini").Close();
+            }
+
+            Console.WriteLine(configPath);
         }
     }
 }

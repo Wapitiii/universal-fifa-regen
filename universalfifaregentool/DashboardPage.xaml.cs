@@ -84,10 +84,17 @@ namespace universalfifaregentool
 
         private void browseGameFolder(object sender, RoutedEventArgs e)
         {
-            gameDirectory.Text = ShowFolderBrowserDialog();
+            string gameDir;
+
+            gameDir = ShowFolderBrowserDialog();
+
+            gameDirectory.Text = gameDir;
         }
 
+        private void editConfig(string gameDir)
+        {
 
+        }
 
         private void execRegen()
         {
