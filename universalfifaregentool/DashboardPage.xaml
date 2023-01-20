@@ -67,7 +67,7 @@
             Margin="0,12,0,0"
             Padding="24,6"
             HorizontalAlignment="Right"
-            Content="Execute"
+            Content="Regenerate!"
             Icon="Rocket24" Click="Button_Click" />
     </StackPanel>
 </Page>

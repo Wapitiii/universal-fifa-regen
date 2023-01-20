@@ -56,7 +56,7 @@
                 <TextBlock
                     FontSize="12"
                     Foreground="{DynamicResource TextFillColorTertiaryBrush}"
-                    Text="This Tool was made possible by using the FifaLibrary14 from Fifa-Master." />
+                    Text="This Tool was made possible by using the FifaLibrary14.dll from Fifa-Master (Rinaldo)." />
             </StackPanel>
         </ui:CardExpander>
     </StackPanel>
