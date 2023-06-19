@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "universalfifaregentool", "universalfifaregentool\universalfifaregentool.csproj", "{7DD04BBA-2681-479B-B03C-5C61791F6416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "universalfifaregentool-cli", "universalfifaregentool-cli\universalfifaregentool-cli.csproj", "{C3DB3331-8AAE-46A8-A4BD-DE406F3676C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7DD04BBA-2681-479B-B03C-5C61791F6416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DD04BBA-2681-479B-B03C-5C61791F6416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DD04BBA-2681-479B-B03C-5C61791F6416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DB3331-8AAE-46A8-A4BD-DE406F3676C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DB3331-8AAE-46A8-A4BD-DE406F3676C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DB3331-8AAE-46A8-A4BD-DE406F3676C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DB3331-8AAE-46A8-A4BD-DE406F3676C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
