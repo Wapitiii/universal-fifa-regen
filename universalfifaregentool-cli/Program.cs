@@ -92,6 +92,7 @@ namespace universalfifaregentool_cli
 ██╔══██╗██╔══╝░░██║░░╚██╗██╔══╝░░██║╚████║██╔══╝░░██╔══██╗██╔══██║░░░██║░░░██║░░██║██╔══██╗
 ██║░░██║███████╗╚██████╔╝███████╗██║░╚███║███████╗██║░░██║██║░░██║░░░██║░░░╚█████╔╝██║░░██║
 ╚═╝░░╚═╝╚══════╝░╚═════╝░╚══════╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝
+© 2023 FIFA Legacy Project. All Rights Reserved.
 ");
             }
         }
@@ -120,9 +121,9 @@ namespace universalfifaregentool_cli
             {
                 if (m_FatFile != null)
                 {
-                    Console.WriteLine("[*] Regeneratring BH...");
+                    Console.WriteLine("[*] Regenerating BH...");
                     m_FatFile.RegenerateAllBh(true);
-                    Console.WriteLine("[*] Done!");
+                    Console.WriteLine("[*] BH Files Regenerated Successfully!");
                 }
             }
         }
